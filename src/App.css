@@ -6,10 +6,18 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+.App {
+    display: flex;
+    flex-direction: column;
+}
+.displayDiv {
+    display: flex;
+    padding: 5%;
+}
 .display {
-    margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +27,77 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+
   }
+.allButtons {
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid blue;
+    justify-content: space-evenly;
+    margin-left: 8.5%;
+}
+.snButtons {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+    width: 80%;
+}
+.sButtons {
+    display: flex;
+    border: 1px solid green;
+}
+.nButtons {
+    display: flex;
+}
+/* .operatorButtons {
+    display: flex;
+    flex-direction: column;
+} */
+.operatorButtonsIndiv {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    background: #3DB5E5;
+    margin: 10%;
+    border: none;
+    box-shadow: 0.2px 1.5px black;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    height: 5%;
+    width: 5%;
+    color: white;
+}
+
+.numBtnsIndiv {
+    border-radius: 50%;
+    background: #113C78;
+    margin: 10%;
+    border: none;
+    box-shadow: 0.2px 1.5px black;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    height: 5%;
+    width: 5%;
+    color: white;
+}
+
+.specialButtonsIndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    background: #2061B0;
+    border: none;
+    box-shadow: 0.2px 1.5px black;
+    height: 40px;
+    width: 40px;
+    color: white;
+}
