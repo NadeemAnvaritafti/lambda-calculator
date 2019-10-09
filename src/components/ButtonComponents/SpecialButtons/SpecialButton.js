@@ -6,7 +6,9 @@ const SpecialButton = props => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      <button className='specialButtonsIndiv' onClick={()=> props.changeCount(props.button)}>{props.button}</button>
+      <div className='eachButtonDiv'>
+      <button className='specialButtonsIndiv btns' onClick={()=> props.changeCount(props.button)}>{props.button}</button>
+      </div>
     </>
   );
 };

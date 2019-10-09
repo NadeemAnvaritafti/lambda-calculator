@@ -26,7 +26,9 @@ function App() {
 
   return (
     <div className="container">
-      <Logo />
+      <div className='logo'>
+        <Logo />
+      </div>
       <div className="App">
         <div className="displayDiv">
         <Display text={count} />
