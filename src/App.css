@@ -1,15 +1,39 @@
 .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 350px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 2%;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.displayDiv {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
 .display {
-    margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -20,3 +44,66 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+.allButtons {
+    display: flex;
+}
+.snButtons {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+}
+.sButtons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.nButtons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.oButtons {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+} 
+.eachButtonDiv {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.oButtonDiv {
+    width: 100%;
+}
+.buttonDivs {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0.2px 1.5px black;
+    font-size: 20px;
+    height: 65px;
+    width: 65px;
+    color: white;
+}
+.operatorButtonsIndiv {
+    background: #3DB5E5;
+}
+
+.numBtnsIndiv {
+    background: #113C78;
+}
+
+.specialButtonsIndiv {
+    background: #2061B0;
+}
